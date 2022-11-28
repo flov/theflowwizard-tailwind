@@ -1,18 +1,15 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Phare Ponleu Selpak',
+    description:
+      'Phare Ponleu Selpak is a Cambodian circus school and NGO that provides free education and training to disadvantaged children and young adults. In November 2013, I was teaching contact juggling at this circus school for two weeks to 7 to 15 year old children.',
+    imgSrc: '/static/images/phare.png',
+    href: 'https://phareps.org/',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
+    title: 'Workshops',
+    description: `Since the start of my artistic life it has always been a joy to pass on the passion of contact juggling to others. I have been teaching contact juggling workshops at festivals, conventions and just in parks outside in the cities. Festivals where I gave workshops: Rainbow Serpent, Earth Frequency, Freqs of nature, Modem, Boom, Spirit of Nature. Conventions: Phoenix Fire Convention (2022, 2019), Alle Mitmischen (2022)`,
+    imgSrc: '/static/images/Pictures/workshop_rainbow.jpg',
     href: '/blog/the-time-machine',
   },
 ]

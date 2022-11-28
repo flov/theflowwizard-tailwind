@@ -1,5 +1,6 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
+import '@/css/custom.sass'
 import 'katex/dist/katex.css'
 // import '@/css/docsearch.css' // Uncomment if using algolia docsearch
 // import '@docsearch/css' // Uncomment if using algolia docsearch
@@ -22,6 +23,9 @@ export default function App({ Component, pageProps }: AppProps) {
       <Analytics analyticsConfig={siteMetadata.analytics} />
       <LayoutWrapper>
         <SearchProvider searchConfig={siteMetadata.search}>
+          {new Array(19).fill(0).map((_, i) => (
+            <div className="firefly" key={i} />
+          ))}
           <Component {...pageProps} />
         </SearchProvider>
       </LayoutWrapper>

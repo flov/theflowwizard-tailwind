@@ -2,10 +2,11 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'The Flow Wizard',
+  artisticName: 'The Flow Wizard',
+  author: 'Florian Vallen',
+  headerTitle: 'The Flow Wizard',
+  description: `The Flow Wizard's Blog about contact juggling, flow arts, and life`,
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -13,10 +14,10 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
+  email: 'florian.vallen@gamil.com',
+  github: 'https://github.com/flov',
+  twitter: 'https://twitter.com/florianvallen',
+  facebook: 'https://facebook.com/theflowwizard',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
   locale: 'en-US',
