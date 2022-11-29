@@ -18,8 +18,8 @@ const siteMetadata = {
   github: 'https://github.com/flov',
   twitter: 'https://twitter.com/florianvallen',
   facebook: 'https://facebook.com/theflowwizard',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  youtube: 'https://youtube.com/@theflowwizard',
+  linkedin: '',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
