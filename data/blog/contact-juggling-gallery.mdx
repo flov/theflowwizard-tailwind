@@ -1,0 +1,71 @@
+---
+title: Contact Juggling Photo Gallery
+date: '2022-11-12'
+tags: ['contact juggling', 'image gallery']
+draft: false
+summary: Here's a little image gallery of my artistic life as a contact juggler
+---
+
+export const images = [
+  '28.jpg',
+  '29.jpg',
+  '18.jpg',
+  '21.jpg',
+  '27.jpg',
+  '30.jpg',
+  '31.jpg',
+  '4.jpg',
+  '1.jpg',
+  '2.jpg',
+  '3.jpg',
+  '5.jpg',
+  '6.jpg',
+  '7.jpg',
+  '8.jpg',
+  '9.jpg',
+  '11.jpg',
+  '12.jpg',
+  '13.jpg',
+  '14.jpg',
+  '15.jpg',
+  '16.jpg',
+  '17.jpg',
+  '19.jpg',
+  '20.jpg',
+  '22.jpg',
+  '24.jpg',
+  '25.jpeg',
+  'freqs_trippers!.jpg',
+]
+
+
+# Oh du schöne Photo Gallerie
+
+<div className="-mx-2 flex flex-wrap overflow-hidden xl:-mx-2">
+  {images.map((image, index) => (
+    <div
+      key={`image${index}`}
+      className="w-full px-2 my-1 overflow-hidden xl:my-1 xl:w-1/2 xl:px-2"
+    >
+      <Image src={`/static/images/showcase/contact/${image}`} width={400} height={600} alt="Showcase" />
+    </div>
+  ))}
+</div>
+
+## Photo Credits
+
+<div>
+  [Amir Weiss](https://www.instagram.com/awtransform/)
+</div>
+<div>
+  [Fineart](https://www.instagram.com/josifineart/)
+</div>
+<div>
+  [Spinferno](https://www.instagram.com/spinferno_australia/)
+</div>
+<div>
+  [Romain Shutterbug](https://www.facebook.com/RomainShutterbug)
+</div>
+<div>
+  [Julian Frees Photography](http://julianfrees.com/)
+</div>

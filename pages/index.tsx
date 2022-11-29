@@ -23,11 +23,13 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-amber-500">
+      <div className="divide-y divide-gray-200 dark:divide-gray-100">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 leading-9 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            A Blog of a Wizard
-          </h1>
+          <div className="flex justify-center">
+            <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 leading-9 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              A Blog of a Wizard
+            </h1>
+          </div>
           <div className="flex items-center justify-center w-full">
             <Image src="/static/images/wizard.png" alt="wizard" width={200} height={200} />
           </div>
@@ -35,7 +37,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             {siteMetadata.description}
           </p>
         </div>
-        <ul className="divide-y divide-gray-200 dark:divide-amber-500">
+        <ul className="divide-y divide-gray-200 dark:divide-gray-100">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((post) => {
             const { slug, date, title, summary, tags } = post

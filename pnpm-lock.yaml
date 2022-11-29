@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/bonbon': ^4.5.7
+  '@fontsource/montserrat': ^4.5.13
   '@next/bundle-analyzer': 13.0.2
   '@next/font': 13.0.2
   '@svgr/webpack': ^6.3.1
@@ -54,6 +56,8 @@ specifiers:
   unist-util-visit: ^4.1.0
 
 dependencies:
+  '@fontsource/bonbon': 4.5.7
+  '@fontsource/montserrat': 4.5.13
   '@next/bundle-analyzer': 13.0.2
   '@next/font': 13.0.2
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.4
@@ -1769,6 +1773,14 @@ packages:
 
   /@fal-works/esbuild-plugin-global-externals/2.1.2:
     resolution: {integrity: sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==}
+    dev: false
+
+  /@fontsource/bonbon/4.5.7:
+    resolution: {integrity: sha512-IaXXdfhckZK3uBgacMVHrWfo/ZYI00dS9qKUS4gpmCzUvpltRhpaQeNPIOAS8cCn/vrc21htZEG9Lvb/svSHmw==}
+    dev: false
+
+  /@fontsource/montserrat/4.5.13:
+    resolution: {integrity: sha512-/XlcNsMFjdWX4Away8Ax/4NgND8Ckk9gVDwgz1sfxF6h+gFHChLOV0IvPrUfCQjZ1F35igg+nR9bSxmjsYEskQ==}
     dev: false
 
   /@grpc/grpc-js/1.7.3:

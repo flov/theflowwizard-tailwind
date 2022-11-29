@@ -1,4 +1,4 @@
-import { Inter } from '@next/font/google'
+import { Montserrat } from '@next/font/google'
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo2.png'
@@ -14,8 +14,9 @@ interface Props {
   children: ReactNode
 }
 
-const inter = Inter({
+const inter = Montserrat({
   subsets: ['latin'],
+  weight: '400',
 })
 
 const LayoutWrapper = ({ children }: Props) => {

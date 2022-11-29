@@ -1,3 +1,13 @@
+@import "@fontsource/bonbon";
+@import "@fontsource/montserrat";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-family: "Bonbon";
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,7 +21,7 @@
 }
 
 .footnotes {
-  @apply mt-12 border-t border-gray-200 pt-8 dark:border-gray-700;
+  @apply pt-8 mt-12 border-t border-gray-200 dark:border-gray-700;
 }
 
 .data-footnote-backref {

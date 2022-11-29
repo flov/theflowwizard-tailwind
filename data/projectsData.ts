@@ -8,9 +8,8 @@ const projectsData = [
   },
   {
     title: 'Workshops',
-    description: `Since the start of my artistic life it has always been a joy to pass on the passion of contact juggling to others. I have been teaching contact juggling workshops at festivals, conventions and just in parks outside in the cities. Festivals where I gave workshops: Rainbow Serpent, Earth Frequency, Freqs of nature, Modem, Boom, Spirit of Nature. Conventions: Phoenix Fire Convention (2022, 2019), Alle Mitmischen (2022)`,
-    imgSrc: '/static/images/Pictures/workshop_rainbow.jpg',
-    href: '/blog/the-time-machine',
+    description: `It has always been a joy to me to pass on the passion of contact juggling to others. I have been teaching contact juggling workshops at festivals, conventions and just in parks outside in the cities. Festivals where I gave workshops: Rainbow Serpent, Earth Frequency, Freqs of nature, Modem, Boom, Spirit of Nature. Conventions: Phoenix Fire Convention (2022, 2019), Alle Mitmischen (2022)`,
+    imgSrc: '/static/images/alle_mitmischen.jpg',
   },
 ]
 
