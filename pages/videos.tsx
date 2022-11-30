@@ -4,7 +4,7 @@ import React from 'react'
 const Videos: NextPage = () => {
   return (
     <div className="mx-auto prose dark:prose-dark">
-      <h1 className="mb-2 text-3xl font-extrabold tracking-tight text-center text-gray-900 leading-9 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+      <h1 className="text-3xl font-extrabold tracking-tight text-center text-gray-900 leading-9 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
         Videos
       </h1>
 
