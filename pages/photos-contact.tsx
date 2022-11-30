@@ -7,6 +7,7 @@ import TwitterBanner from '@/components/TwitterBanner'
 import PhotoCredits from '@/components/PhotoCredits'
 import { PageSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
+import Script from 'next/script'
 
 export default function PhotosContact() {
   const [index, setIndex] = useState(-1)
@@ -70,6 +71,23 @@ export default function PhotosContact() {
           />
         )}
       </div>
+      <div className="mt-8 giscus"></div>
+      <Script
+        src="https://giscus.app/client.js"
+        data-repo="flov/theflowwizard-tailwind"
+        data-repo-id="R_kgDOIhJjNg"
+        data-category="General"
+        data-category-id="DIC_kwDOIhJjNs4CS1Uo"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossOrigin="anonymous"
+        async
+      ></Script>
     </>
   )
 }
