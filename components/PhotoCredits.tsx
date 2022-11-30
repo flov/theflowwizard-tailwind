@@ -1,7 +1,6 @@
 import React, { FC } from 'react'
 
 const PhotoCredits: FC<{ credits: Record<string, string>[] }> = ({ credits }) => {
-  console.log(credits)
   return (
     <div className="max-w-2xl mx-auto">
       <p>
