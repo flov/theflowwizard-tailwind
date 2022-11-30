@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Fragment, useState } from 'react'
 import Link from './Link'
 import headerNavLinks from '@/data/headerNavLinks'
 
@@ -78,7 +78,7 @@ const MobileNav = () => {
         </div>
         <nav className="fixed h-full mt-8">
           {headerNavLinks.map((link) => (
-            <>
+            <Fragment key={link.title}>
               {link.title === 'Photos' ? (
                 <>
                   <LinkItem
@@ -93,7 +93,7 @@ const MobileNav = () => {
               ) : (
                 <LinkItem link={link} onToggleNav={onToggleNav} />
               )}
-            </>
+            </Fragment>
           ))}
         </nav>
       </div>

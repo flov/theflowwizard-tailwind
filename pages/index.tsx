@@ -9,8 +9,6 @@ import { NewsletterForm } from 'pliny/ui/NewsletterForm'
 import { allBlogs } from 'contentlayer/generated'
 import type { Blog } from 'contentlayer/generated'
 import Image from 'next/image'
-import { Menu, Transition } from '@headlessui/react'
-import Dropdown from '@/components/Dropdown'
 
 const MAX_DISPLAY = 5
 
@@ -25,7 +23,6 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <Dropdown />
 
       <div className="divide-y divide-gray-200 dark:divide-gray-100">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">

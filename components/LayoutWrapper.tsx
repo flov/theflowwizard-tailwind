@@ -7,7 +7,7 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
-import { ReactNode } from 'react'
+import { Fragment, ReactNode } from 'react'
 import Image from 'next/image'
 import Dropdown from './Dropdown'
 
@@ -37,22 +37,21 @@ const LayoutWrapper = ({ children }: Props) => {
               </div>
             </Link>
           </div>
-          <div className="flex items-center text-base leading-5">
-            <div className="hidden sm:block">
+          <div className="flex items-center text-base gap-2 leading-5">
+            <div className="hidden sm:flex sm:gap-3 sm:block">
+              <Dropdown />
               {headerNavLinks.map((link) => (
-                <>
-                  {link.title === 'Photos' ? (
-                    <Dropdown />
-                  ) : (
+                <Fragment key={link.title}>
+                  {link.title !== 'Photos' && (
                     <Link
                       key={link.title}
                       href={link.href}
-                      className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+                      className="p-0 font-medium text-gray-900 dark:text-gray-100"
                     >
                       {link.title}
                     </Link>
                   )}
-                </>
+                </Fragment>
               ))}
             </div>
             <ThemeSwitch />
