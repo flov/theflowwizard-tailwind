@@ -50,7 +50,7 @@ export const fireImages: CustomImage[] = [
     original: 'modem_fire_dragons.jpg',
     width: 2048,
     height: 1277,
-    tags: [{ value: 'Modem', title: 'Modem' }],
+    tags: [{ value: 'Earth Dragons @Modem', title: 'Earth Dragons @Modem' }],
   },
   {
     src: '/static/images/showcase/fire/phoenix_fire_convention_hoop_and_ball.jpg',
