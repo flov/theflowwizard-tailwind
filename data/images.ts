@@ -121,6 +121,20 @@ export const contactImages: CustomImage[] = [
     tags: [{ value: 'Spirit Of Nature', title: 'Spirit Of Nature' }],
   },
   {
+    src: '/static/images/showcase/contact/eff_2.jpg',
+    original: '/static/images/showcase/contact/eff_2.jpg',
+    width: 1920,
+    height: 1280,
+    tags: [{ value: 'Earth Frequency', title: 'Earth Frequency' }],
+  },
+  {
+    src: '/static/images/showcase/contact/mexico.jpg',
+    original: '/static/images/showcase/contact/mexico.jpg',
+    width: 1920,
+    height: 1280,
+    tags: [{ value: 'Mexico', title: 'Mexico' }],
+  },
+  {
     src: '/static/images/showcase/contact/boom_contact_apple_moment.jpg',
     original: '/static/images/showcase/contact/boom_contact_apple_moment.jpg',
     width: 1920,
@@ -273,6 +287,13 @@ export const contactImages: CustomImage[] = [
     original: '/static/images/showcase/contact/22.jpg',
     width: 2048,
     height: 1365,
+  },
+  {
+    src: '/static/images/showcase/contact/eff.jpg',
+    original: '/static/images/showcase/contact/eff.jpg',
+    width: 1920,
+    height: 1280,
+    tags: [{ value: 'Earth Frequency', title: 'Earth Frequency' }],
   },
   {
     src: '/static/images/showcase/contact/24.jpg',

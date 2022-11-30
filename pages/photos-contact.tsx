@@ -28,6 +28,7 @@ export default function PhotosContact() {
     { name: 'Fineart', link: 'https://www.instagram.com/josifineart/' },
     { name: 'Spinferno', link: 'https://www.instagram.com/spinferno_australia/' },
     { name: 'Romain Shutterbug', link: 'https://www.facebook.com/RomainShutterbug' },
+    { name: 'Luci Rainbowness', link: 'https://www.instagram.com/lucie.rainbowness/' },
   ]
 
   return (
