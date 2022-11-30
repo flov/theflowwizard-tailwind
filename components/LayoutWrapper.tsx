@@ -9,6 +9,7 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { ReactNode } from 'react'
 import Image from 'next/image'
+import Dropdown from './Dropdown'
 
 interface Props {
   children: ReactNode
@@ -39,13 +40,19 @@ const LayoutWrapper = ({ children }: Props) => {
           <div className="flex items-center text-base leading-5">
             <div className="hidden sm:block">
               {headerNavLinks.map((link) => (
-                <Link
-                  key={link.title}
-                  href={link.href}
-                  className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
-                >
-                  {link.title}
-                </Link>
+                <>
+                  {link.title === 'Photos' ? (
+                    <Dropdown />
+                  ) : (
+                    <Link
+                      key={link.title}
+                      href={link.href}
+                      className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+                    >
+                      {link.title}
+                    </Link>
+                  )}
+                </>
               ))}
             </div>
             <ThemeSwitch />

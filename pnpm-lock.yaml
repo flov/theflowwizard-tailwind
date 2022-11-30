@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@fontsource/bonbon': ^4.5.7
   '@fontsource/montserrat': ^4.5.13
+  '@headlessui/react': ^1.7.4
   '@next/bundle-analyzer': 13.0.2
   '@next/font': 13.0.2
   '@svgr/webpack': ^6.3.1
@@ -41,6 +42,7 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   react-grid-gallery: ^1.0.0
+  react-icons: ^4.7.1
   react-image-lightbox: ^5.1.4
   reading-time: 1.5.0
   rehype-autolink-headings: ^6.1.0
@@ -60,6 +62,7 @@ specifiers:
 dependencies:
   '@fontsource/bonbon': 4.5.7
   '@fontsource/montserrat': 4.5.13
+  '@headlessui/react': 1.7.4_biqbaboplfbrettd7655fr4n2y
   '@next/bundle-analyzer': 13.0.2
   '@next/font': 13.0.2
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.4
@@ -79,6 +82,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-grid-gallery: 1.0.0_react@18.2.0
+  react-icons: 4.7.1_react@18.2.0
   react-image-lightbox: 5.1.4_biqbaboplfbrettd7655fr4n2y
   reading-time: 1.5.0
   rehype-autolink-headings: 6.1.1
@@ -1817,6 +1821,18 @@ packages:
       long: 4.0.0
       protobufjs: 7.1.2
       yargs: 16.2.0
+    dev: false
+
+  /@headlessui/react/1.7.4_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-D8n5yGCF3WIkPsjEYeM8knn9jQ70bigGGb5aUvN6y4BGxcT3OcOQOKcM3zRGllRCZCFxCZyQvYJF6ZE7bQUOyQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+      react-dom: ^16 || ^17 || ^18
+    dependencies:
+      client-only: 0.0.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.11.7:
@@ -6574,6 +6590,14 @@ packages:
     resolution: {integrity: sha512-S1gr6WXBlPFVrE0x2BHuu7jhyaB61mabcMQyx+8KCgAyKzGza0WF67AfAnS9Q00aurFEq4IP8eqb2Bk5F4RAmQ==}
     peerDependencies:
       react: '>=16.14.0'
+    dependencies:
+      react: 18.2.0
+    dev: false
+
+  /react-icons/4.7.1_react@18.2.0:
+    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
+    peerDependencies:
+      react: '*'
     dependencies:
       react: 18.2.0
     dev: false

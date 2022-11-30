@@ -4,7 +4,101 @@ export interface CustomImage extends Image {
   original: string
 }
 
-export const images: CustomImage[] = [
+export const fireImages: CustomImage[] = [
+  {
+    src: '/static/images/showcase/fire/Samsara.jpg',
+    original: '/statici/images/showcase/fire/Samsara.jpg',
+    width: 2048,
+    height: 1372,
+    tags: [{ value: 'Samsara', title: 'Samsara' }],
+  },
+  {
+    src: '/static/images/showcase/fire/fractalia.jpg',
+    original: 'fractalia.jpg',
+    width: 1541,
+    height: 2048,
+    tags: [{ value: 'Fractalia', title: 'Fractalia' }],
+  },
+  {
+    src: '/static/images/showcase/fire/julian_geburtstag_1.jpg',
+    original: 'julian_geburtstag_1.jpg',
+    width: 2048,
+    height: 1365,
+  },
+  {
+    src: '/static/images/showcase/fire/julian_geburtstag_2.jpg',
+    original: 'julian_geburtstag_2.jpg',
+    width: 2048,
+    height: 1365,
+  },
+  {
+    src: '/static/images/showcase/fire/modem.jpg',
+    original: 'modem.jpg',
+    width: 2048,
+    height: 1437,
+    tags: [{ value: 'Modem', title: 'Modem' }],
+  },
+  {
+    src: '/static/images/showcase/fire/modem_2.jpg',
+    original: 'modem_2.jpg',
+    width: 2048,
+    height: 1365,
+    tags: [{ value: 'Modem', title: 'Modem' }],
+  },
+  {
+    src: '/static/images/showcase/fire/modem_fire_dragons.jpg',
+    original: 'modem_fire_dragons.jpg',
+    width: 2048,
+    height: 1277,
+    tags: [{ value: 'Modem', title: 'Modem' }],
+  },
+  {
+    src: '/static/images/showcase/fire/phoenix_fire_convention_hoop_and_ball.jpg',
+    original: 'phoenix_fire_convention_hoop_and_ball.jpg',
+    width: 1553,
+    height: 2048,
+    tags: [{ value: 'Phoenix Fire Convention', title: 'Phoenix Fire Convention' }],
+  },
+  {
+    src: '/static/images/showcase/fire/rostoc_10.jpg',
+    original: 'rostoc_10.jpg',
+    width: 1200,
+    height: 1200,
+    tags: [{ value: 'Rostoc', title: 'Rostoc' }],
+  },
+  {
+    src: '/static/images/showcase/fire/rostoc_5.jpg',
+    original: 'rostoc_5.jpg',
+    width: 960,
+    height: 1200,
+  },
+  {
+    src: '/static/images/showcase/fire/rostoc_7.jpg',
+    original: 'rostoc_7.jpg',
+    width: 1640,
+    height: 1200,
+  },
+  {
+    src: '/static/images/showcase/fire/rostoc_8.jpg',
+    original: 'rostoc_8.jpg',
+    width: 1200,
+    height: 960,
+  },
+  {
+    src: '/static/images/showcase/fire/rostoc_9.jpg',
+    original: 'rostoc_9.jpg',
+    width: 1200,
+    height: 927,
+  },
+  {
+    src: '/static/images/showcase/fire/roztoc.jpg',
+    original: 'roztoc.jpg',
+    width: 5455,
+    height: 3637,
+  },
+]
+
+export const contactImages: CustomImage[] = [
   {
     src: '/static/images/showcase/contact/27.jpg',
     original: '/static/images/showcase/contact/27.jpg',
