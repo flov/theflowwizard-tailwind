@@ -37,8 +37,8 @@ const LayoutWrapper = ({ children }: Props) => {
               </div>
             </Link>
           </div>
-          <div className="flex items-center text-base gap-2 leading-5">
-            <div className="hidden sm:flex sm:gap-3 sm:block">
+          <div className="flex items-center text-base leading-5">
+            <div className="hidden sm:flex sm:gap-4 sm:block">
               <PhotosDropdown />
               {headerNavLinks.map((link) => (
                 <Fragment key={link.title}>
