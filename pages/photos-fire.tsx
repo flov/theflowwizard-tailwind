@@ -22,6 +22,14 @@ export default function PhotosContact() {
   const handleMovePrev = () => setIndex(prevIndex)
   const handleMoveNext = () => setIndex(nextIndex)
 
+  const credits = [
+    { name: 'Julian Frees', link: 'http://julianfrees.com/' },
+    { name: 'Psymon Photography', link: 'https://www.instagram.com/psymon.photography/' },
+    { name: 'Fineart', link: 'https://www.instagram.com/josifineart/' },
+    { name: 'Spinferno', link: 'https://www.instagram.com/spinferno_australia/' },
+    { name: 'Mr. Bautzen', link: 'https://www.instagram.com/mr.bautzen/' },
+  ]
+
   return (
     <>
       <PageSEO
@@ -41,7 +49,7 @@ export default function PhotosContact() {
         </header>
 
         <TwitterBanner />
-        <PhotoCredits />
+        <PhotoCredits credits={credits} />
 
         <Gallery images={fireImages} onClick={handleClick} enableImageSelection={false} />
         {!!currentImage && (

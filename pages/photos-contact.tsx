@@ -7,8 +7,6 @@ import TwitterBanner from '@/components/TwitterBanner'
 import PhotoCredits from '@/components/PhotoCredits'
 import { PageSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
-import Logo from '@/data/logo2.png'
-import Image from 'next/image'
 
 export default function PhotosContact() {
   const [index, setIndex] = useState(-1)
@@ -23,6 +21,14 @@ export default function PhotosContact() {
   const handleClose = () => setIndex(-1)
   const handleMovePrev = () => setIndex(prevIndex)
   const handleMoveNext = () => setIndex(nextIndex)
+
+  const credits = [
+    { name: 'Julian Frees', link: 'http://julianfrees.com/' },
+    { name: 'Amir Weiss', link: 'https://www.instagram.com/awtransform/' },
+    { name: 'Fineart', link: 'https://www.instagram.com/josifineart/' },
+    { name: 'Spinferno', link: 'https://www.instagram.com/spinferno_australia/' },
+    { name: 'Romain Shutterbug', link: 'https://www.facebook.com/RomainShutterbug' },
+  ]
 
   return (
     <>
@@ -43,7 +49,7 @@ export default function PhotosContact() {
         </header>
 
         <TwitterBanner />
-        <PhotoCredits />
+        <PhotoCredits credits={credits} />
 
         <Gallery images={contactImages} onClick={handleClick} enableImageSelection={false} />
 
