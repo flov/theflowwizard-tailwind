@@ -4,7 +4,7 @@ import { GiGlassBall } from 'react-icons/gi'
 import { SlFire } from 'react-icons/sl'
 import Link from 'next/link'
 
-const Dropdown: FC = () => {
+const PhotosDropdown: FC = () => {
   const links = [
     { href: '/photos-contact', title: 'Contact' },
     { href: '/photos-fire', title: 'Fire' },
@@ -38,4 +38,4 @@ const Dropdown: FC = () => {
   )
 }
 
-export default Dropdown
+export default PhotosDropdown

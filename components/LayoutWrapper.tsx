@@ -9,7 +9,7 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { Fragment, ReactNode } from 'react'
 import Image from 'next/image'
-import Dropdown from './Dropdown'
+import PhotosDropdown from './PhotosDropdown'
 
 interface Props {
   children: ReactNode
@@ -39,7 +39,7 @@ const LayoutWrapper = ({ children }: Props) => {
           </div>
           <div className="flex items-center text-base gap-2 leading-5">
             <div className="hidden sm:flex sm:gap-3 sm:block">
-              <Dropdown />
+              <PhotosDropdown />
               {headerNavLinks.map((link) => (
                 <Fragment key={link.title}>
                   {link.title !== 'Photos' && (

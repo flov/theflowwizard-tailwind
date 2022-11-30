@@ -102,10 +102,25 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   className="pt-6 pb-6 text-center text-gray-700 dark:text-gray-300"
                   id="comment"
                 >
-                  {!loadComments && (
-                    <button onClick={() => setLoadComments(true)}>Load Comments</button>
-                  )}
-                  {loadComments && <Comments commentsConfig={siteMetadata.comments} slug={slug} />}
+                  {false && <button onClick={() => setLoadComments(true)}>Load Comments</button>}
+                  {false && <Comments commentsConfig={siteMetadata.comments} slug={slug} />}
+                  <div className="mt-8 giscus"></div>
+                  <Script
+                    src="https://giscus.app/client.js"
+                    data-repo="flov/theflowwizard-tailwind"
+                    data-repo-id="R_kgDOIhJjNg"
+                    data-category="General"
+                    data-category-id="DIC_kwDOIhJjNs4CS1Uo"
+                    data-mapping="pathname"
+                    data-strict="0"
+                    data-reactions-enabled="1"
+                    data-emit-metadata="0"
+                    data-input-position="bottom"
+                    data-theme="preferred_color_scheme"
+                    data-lang="en"
+                    crossOrigin="anonymous"
+                    async
+                  ></Script>
                 </div>
               )}
             </div>
