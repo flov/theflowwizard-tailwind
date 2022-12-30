@@ -6,7 +6,6 @@ import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
-import ThemeSwitch from './ThemeSwitch'
 import { Fragment, ReactNode } from 'react'
 import Image from 'next/image'
 import PhotosDropdown from './PhotosDropdown'
@@ -54,7 +53,6 @@ const LayoutWrapper = ({ children }: Props) => {
                 </Fragment>
               ))}
             </div>
-            <ThemeSwitch />
             <MobileNav />
           </div>
         </header>

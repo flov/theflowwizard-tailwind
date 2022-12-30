@@ -32,9 +32,9 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             </h1>
           </div>
           <div className="flex items-center justify-center w-full">
-            <Image src="/static/images/wizard.png" alt="wizard" width={200} height={200} />
+            <Image src="/static/images/flow-wizard-2.png" alt="wizard" width={300} height={300} />
           </div>
-          <p className="text-lg text-gray-500 leading-7 dark:text-gray-400">
+          <p className="text-lg text-center text-gray-500 leading-7 dark:text-gray-400">
             {siteMetadata.description}
           </p>
         </div>

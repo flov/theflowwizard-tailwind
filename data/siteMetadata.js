@@ -6,7 +6,7 @@ const siteMetadata = {
   artisticName: 'The Flow Wizard',
   author: 'Florian Vallen',
   headerTitle: 'The Flow Wizard',
-  description: `The Flow Wizard's Blog about contact juggling, flow arts, and life`,
+  description: `This is the artistic Blog of the Flow Wizard. It's mainly about all the things that fascinates a wizard, contact juggling and flow arts`,
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
