@@ -9,6 +9,7 @@ import MobileNav from './MobileNav'
 import { Fragment, ReactNode } from 'react'
 import Image from 'next/image'
 import PhotosDropdown from './PhotosDropdown'
+import ThemeSwitch from './ThemeSwitch'
 
 interface Props {
   children: ReactNode
@@ -53,6 +54,7 @@ const LayoutWrapper = ({ children }: Props) => {
                 </Fragment>
               ))}
             </div>
+            <ThemeSwitch />
             <MobileNav />
           </div>
         </header>
