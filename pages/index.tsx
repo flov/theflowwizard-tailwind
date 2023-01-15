@@ -26,16 +26,19 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
 
       <div className="divide-y divide-gray-200 dark:divide-gray-100">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <div className="flex justify-center">
-            <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 leading-9 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              A Blog of a Wizard
-            </h1>
-          </div>
+          <h1 className="text-3xl text-center font-extrabold tracking-tight text-gray-900 leading-9 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Welcome stranger!
+          </h1>
+          <p className="text-center">
+            You have travelled far, please, take a seat and have a look around.
+          </p>
           <div className="flex items-center justify-center w-full">
             <Image src="/static/images/flow-wizard-2.png" alt="wizard" width={300} height={300} />
           </div>
-          <p className="text-lg text-center text-gray-500 leading-7 dark:text-gray-400">
-            {siteMetadata.description}
+          <p>
+            The Flow Wizard is a persona that I have created on my journey to become a flow artist
+            with my contact juggling. On this web presence I will post my artistic work and write
+            about flow-art related topics that I feel passionate about. 
           </p>
         </div>
 
