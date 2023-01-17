@@ -38,7 +38,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           <p>
             The Flow Wizard is a persona that I have created on my journey to become a flow artist
             with my contact juggling. On this web presence I will post my artistic work and write
-            about flow-art related topics that I feel passionate about. 
+            about flow-art related topics that I feel passionate about.
           </p>
         </div>
 
